@@ -1,0 +1,39 @@
+{
+    "name": "warblerwings/yii2-vuejs",
+    "description": "Vue.js components for Yii2",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/warblerwings/yii2-vuejs/yii2-vuejs#readme",
+    "keywords": [
+        "yii2",
+        "vuejs"
+    ],
+    "authors": [{
+        "name": "warblerwings",
+        "email": "warblerwings.np@gmail.com",
+        "homepage": "http://www.warblerwings.com.np/",
+        "role": "Creator"
+    }],
+    "support": {
+        "issues": "https://github.com/warblerwings/yii2-vuejs/yii2-vuejs/issues",
+        "source": "https://github.com/warblerwings/yii2-vuejs/yii2-vuejs"
+    },
+    "require": {
+        "php": ">=7.2.18",
+        "yiisoft/yii2": "~2.0.20",
+        "bower-asset/axios": "^0.18",
+        "bower-asset/vue": "^2.6",
+        "bower-asset/vue-router": "^3.0",
+        "bower-asset/vue-js-modal": "^1.3",
+        "bower-asset/vue-resource": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ww\\yii2vuejs\\": "src/"
+        }
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }]
+}
