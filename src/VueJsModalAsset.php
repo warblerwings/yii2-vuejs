@@ -16,7 +16,7 @@ class VueJsModalAsset extends AssetBundle {
 	public $sourcePath = '@bower/vue-js-modal/dist';
 
 	public $js = [
-		YII_ENV_DEV ? 'vue-js-modal.js' : 'vue-js-modal.min.js',
+		'index.js',
 	];
 
 	public $jsOptions = [
