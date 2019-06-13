@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  * @package ww\yii2vuejs
  * @author pratapb <pratap.baniya@gmail.com>
  */
-class Bootstrap4 extends AssetBundle {
+class Bootstrap4Asset extends AssetBundle {
 
 	public $sourcePath = '@bower/bootstrap4/dist';
 
